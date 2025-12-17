@@ -1,0 +1,20 @@
+ -function:
+  name: [[function name]]
+  num_args: [[no. of args]]
+  - arg_i: [[arg i info]]
+     name: [[name]]
+     type: [[type]]
+     size: [[unit size]]
+     constraints:
+     - min: [[min val]] 
+     - max: [[max val]] 
+     - not: [[!= val]]
+     - eq: [[= val]]
+     - precondition : [[var, val]]
+  num_vars: [[no. of vars]]
+  - var_i:  [[var i info]]
+     name: [[name]]
+
+  output: [[output info]]
+    type: [[type]]
+    size: [[unit size]]
